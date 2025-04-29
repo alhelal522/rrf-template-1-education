@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./assets/font/SourceSansPro-Regular.woff2') format('woff2'),
+        url('./assets/font/SourceSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./assets/font/SourceSansPro-Bold.woff2') format('woff2'),
+        url('./assets/font/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47.5px;
+}
+h2 {
+    font-size: 36px; 
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: -0.5%;
+}
+
+
+span {
+    color: #1B99D4;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.6px;
+
+}
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    color: #727695;
+}
+
+/* header start */
+.mainmenu ul li a {
+    font-weight: 500;
+    color: #424352;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: block;
+    padding: 9px 20px;
+    font-family: "Inter";
+}
+
+.head-btn {
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: block;
+    padding: 9px 20px;
+    font-family: "Inter";
+    background: #1B99D4;
+    border-radius: 5px;
+}
+
+
+.logo a img {
+    width: 164.70809936523438px;
+}
+/* header End */
+
+
+/* slider section start */
+.hike-title h2{
+    color: #231F40;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+}
+.single-slider-item-wrapper h6 , .single-slider-item-wrapper p {
+    font-family: Poppins;
+}
+
+.single-slider-item-wrapper h4{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.1px;
+}
+
+.single-slider-item-wrapper .btn{
+    color: #006DD9;
+    font-family: "roboto";
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.7px; /* 157.692% */
+    letter-spacing: 0.5px;
+}
+
+.single-slider-item-wrapper p{
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+}
+
+.hike-slider .slick-list , .discover-slider .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow: visible;
+}
+
+.slider-item-wrapper, .single-discover-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.single-slider-item-wrapper , .single-discover {
+    box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.10);
+}
+
+.hike-slider-section {
+    overflow: hidden;
+}
+
+.discover-section {
+    overflow: hidden;
+}
+
+.hike-slider .slick-slide , .discover-slider .slick-slide {
+    opacity: 0;
+    visibility: hidden;
+}
+.hike-slider .slick-active,.discover-slider .slick-active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hike-slider .slick-slide , .discover-slider .slick-slide {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.hike-slider .slick-dots button, .discover-slider .slick-dots button  {
+    display: none;
+}
+
+.hike-slider .slick-dots li , .discover-slider .slick-dots li {
+    width: 8px;
+    height: 8px;
+    background: #1B99D4;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.hike-slider .slick-dots, .discover-slider .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.hike-slider .slick-dots .slick-active , .discover-slider .slick-dots .slick-active {
+    width: 33px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.hike-slide-btn, .discover-btn {
+    padding: 18px 24px;
+    border-radius: 4px;
+    background: #1B99D4;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+/* slider section end */
+
+/* Roadmap Section start */
+.roadmap-section h2{
+    color: #231F40;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.single-tab-list{
+    color: #595665;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.road-p{
+    padding: 12.5px 0px 12.5px 12px;
+}
+.roadmap-form{
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 4px solid #1B99D4;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+    height: 676px;
+}
+/* Roadmap Section end */
+
+/* Project Section start */
+.project-title h2 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.25px;
+}
+
+.discover-title h2 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.25px;
+}
+
+.single-project h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+
+.project-slider {
+    box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.10);
+}
+
+.project-slider .slick-arrow {
+    position: absolute;
+    left: -75%;
+    top: 75%;
+    background: #fff;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FEFEFE;
+    border-radius: 36px;
+    box-shadow: 0px 0px 16px 4px rgba(126, 126, 126, 0.10);
+    opacity: .7;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.project-slider .slick-arrow:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 16px 4px rgba(126, 126, 126, 0.10);
+}
+.project-slider .slick-next.slick-arrow {
+    left: -470px;
+}
+
+.single-project {
+    box-shadow: 0px 7px 29px 0px rgba(99, 99, 110, 0.20);
+}
+
+/* Team Section */
+.team-btns {
+    color: #006DD9;
+    font-family: "Source Sans Pro";
+    font-size: 13.685px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.581px; 
+    letter-spacing: 0.376px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.left-title h2 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: 0.5px;
+}
+
+.review-slider {
+    box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.10);
+}
+
+.single-review-list p {
+    font-family: Inter;
+}
+
+.review-btn {
+    color: #006DD9;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.7px; 
+    letter-spacing: 0.5px;
+}
+
+.review-slider .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.review-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* FaQs Section */
+.faq-title h2{
+    color: #231F40;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+}
+.single-faq-item {
+    border: 1px solid rgba(193, 193, 193, 0.50);
+    cursor: pointer;
+}
+.single-faq-item svg {
+    padding-left: 10px;
+    padding-right: 8px;
+    color: #1B99D4;
+}
+
+.single-faq-item h6{
+    color: #212121;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* Footer Area */
+.footer-logo a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22.296px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.footer-social ul li a {
+    padding: 16px;
+}
+
+.footer-social ul li {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.single-footer li a {
+    padding: 3px 57.3px 4.08px 0px;
+    font-family: "Inter";
+}
+
+.fonts{
+    font-family: "Inter";
+}
+
+
+
+
+
+
+
+
+
+
